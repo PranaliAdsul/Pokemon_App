@@ -1,0 +1,37 @@
+    Add custom styles for Main component here
+.main-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+     
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+    /* background-color: #f0f0f0; */
+     /* Set the background image */
+     background-image: url("https://wallpapers.com/images/hd/pikachu-with-pokemon-friends-uxxa8pvbvsqj0v3h.jpg"); /* Replace with the actual image URL */
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+  }
+  .left-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  .right-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
